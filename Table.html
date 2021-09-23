@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mengenal Tabel HTML</title>
+    <style>
+    table {
+    	position: relative;
+    	border-collapse: collapse;
+    	width: 80%;
+    	max-width: 100%;
+    	margin: auto;
+    	overflow-x: scroll;}
+
+    th, td {
+    	padding: 10px;
+    	border-bottom: 1px bold #ddd;
+    	border-right: 1px solid black;}	
+</style>
+</head>
+<body>
+    <table border="1">
+        <tr>
+        	<th rowspan="2">NO</th>
+        	<th rowspan="2">NPM</th>
+            <th rowspan="2">Mahasiswa</th>
+            <th align="center" colspan="5">Tugas</th>
+        </tr>
+        <tr>
+            <th>T1</th>
+            <th>T2</th>
+            <th>T3</th>
+            <th>Rata - Rata</th>
+        </tr>
+        <tr height="25px">
+            <td>1</td>
+            <td>123456</td>
+            <td>Andara Kusumawati</td>
+            <td id="T1" align="right">80.00</td>
+            <td align="right">80.00</td>
+            <td align="right">90.00</td>
+            <td align="right">83.33</td>
+        </tr>
+        <tr height="25px">
+            <td>2</td>
+            <td>123457</td>
+            <td>Dini Rahmani</td>
+            <td align="right">70.00</td>
+            <td align="right">80.00</td>
+            <td align="right">70.00</td>
+            <td align="right">73.33</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>123458</td>
+            <td>Syamsyul Rizal</td>
+            <td align="right">100.00</td>
+            <td align="right">80.00</td>
+            <td align="right">80.00</td>
+            <td align="right">86.67</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>123459</td>
+            <td>Timotius Agus Wicaksana</td>
+            <td align="right">80.00</td>
+            <td align="right">90.00</td>
+            <td align="right">100.00</td>
+            <td align="right">90.00</td>
+        </tr>
+    </table>
+</body>
+</html>
